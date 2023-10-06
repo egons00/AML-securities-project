@@ -7,10 +7,10 @@ SELECT
   , secp.company_name
   , bal.currency
   , bal.daily_balance_eur AS daily_balance
-    FROM schema.balance                        bal
-             LEFT JOIN  schema.category        cat ON bal.category_id = cat.category_id
-             LEFT JOIN  schema.sec_master      sec ON bal.security_code = sec.security_code
-             INNER JOIN schema.sec_master_comp secp ON secp.security_code = sec.security_code
+    FROM schema.balance                       bal
+             LEFT JOIN schema.category        cat ON bal.category_id = cat.category_id
+             LEFT JOIN schema.sec_master      sec ON bal.security_code = sec.security_code
+             LEFT JOIN schema.sec_master_comp secp ON secp.security_code = sec.security_code
     WHERE 1 = 1
       AND bal.date = '2021-03-01'
 ;
@@ -26,17 +26,22 @@ WITH sec_info AS (
       , secp.company_name
       , bal.currency
       , bal.daily_balance_eur AS daily_balance
-        FROM schema.balance                        bal
-                 LEFT JOIN  schema.category        cat      ON bal.category_id = cat.category_id
-                 LEFT JOIN  schema.sec_master      sec      ON bal.security_code = sec.security_code
-                 INNER JOIN schema.sec_master_comp secp     ON secp.security_code = sec.security_code
+        FROM schema.balance                       bal
+                 LEFT JOIN schema.category        cat ON bal.category_id = cat.category_id
+                 LEFT JOIN schema.sec_master      sec ON bal.security_code = sec.security_code
+                 LEFT JOIN schema.sec_master_comp secp ON secp.security_code = sec.security_code
         WHERE 1 = 1
           AND bal.date = '2021-03-01'
 )
 SELECT
-    category_name      AS category_name
+    date               AS date
+  , category_name      AS category_name
   , currency           AS currency
-  , SUM(daily_balance) AS daily_balance
+  , SUM(daily_balance) AS total_daoly_balance_eur
     FROM sec_info
-    WHERE isin NOT LIKE 'XS%'
-    GROUP BY 1, 2
+    WHERE 1 = 1
+      AND isin NOT LIKE 'XS%'
+      -- Like is very resource heavy, so I added other options that can be used too.
+      -- AND LEFT(isin, 2) != 'XS'
+      -- AND SUBSTRING(isin, 1, 2) != 'XS'
+    GROUP BY 1, 2, 3
