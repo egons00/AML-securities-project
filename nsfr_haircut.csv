@@ -1,0 +1,54 @@
+NSFR_GROUP,BALANCE_GROUP,BALANCE_CATEGORY,BALANCE_SUB_CATEGORY,GAP,NSFR_HAIRCUT
+RSF,Bonds,Bonds,Level 1,<6m,0
+RSF,Bonds,Bonds,Level 1,6 - 12m,0
+RSF,Bonds,Bonds,Level 1,>12m,0
+RSF,Bonds,Bonds,Level 2A,<6m,0.15
+RSF,Bonds,Bonds,Level 2A,6 - 12m,0.15
+RSF,Bonds,Bonds,Level 2A,>12m,0.15
+RSF,Bonds,Bonds,Level 2B,<6m,0.5
+RSF,Bonds,Bonds,Level 2B,6 - 12m,0.5
+RSF,Bonds,Bonds,Non-HQLA,<6m,0.85
+RSF,Bonds,Bonds,Non-HQLA,6 - 12m,0.5
+RSF,Bonds,Bonds,Non-HQLA,>12m,0.5
+RSF,Encumbered assets,Encumbered bonds,Level 1,<6m,1
+RSF,Encumbered assets,Encumbered bonds,Level 1,6 - 12m,1
+RSF,Encumbered assets,Encumbered bonds,Level 1,>12m,1
+RSF,Encumbered assets,Encumbered bonds,Level 2A,<6m,1
+RSF,Encumbered assets,Encumbered bonds,Level 2A,6 - 12m,1
+RSF,Encumbered assets,Encumbered bonds,Level 2A,>12m,1
+RSF,Encumbered assets,Encumbered bonds,Level 2B,<6m,1
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,<6m,1
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,6 - 12m,1
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,>12m,1
+RSF,Cash and CB Reserves,Cash,-,<6m,0
+RSF,Cash and CB Reserves,CB Reserves,-,<6m,0
+RSF,Loans,Performing loans,Non-financial client,6 - 12m,0.5
+RSF,Loans,Performing loans,Non-financial client,<6m,0.5
+RSF,Loans,NPLs,Non-financial client,6 - 12m,1
+RSF,Loans,Performing loans,Financial client,6 - 12m,0.5
+RSF,Loans,Performing loans,Non-financial client,>12m,0.85
+RSF,Loans,Performing loans,Financial client,>12m,1
+RSF,Loans,NPLs,Non-financial client,>12m,1
+RSF,Loans,Performing loans,Financial client,<6m,0.15
+RSF,Loans,NPLs,Non-financial client,<6m,1
+RSF,Other assets,Gold,-,>12m,0.85
+RSF,Other assets,Shares,-,>12m,0.85
+RSF,Nostro and money market,-,-,<6m,0.5
+RSF,All other assets,-,-,<6m,0
+ASF,Tier 1 and Tier 2 capital,Sub,-,>12m,1
+ASF,Tier 1 and Tier 2 capital,Equity,-,>12m,1
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),>12m,1
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),6 - 12m,0.5
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),<6m,0.5
+ASF,Deposits,Non Retail deposits,Operational deposits (financial customers),<6m,0.5
+ASF,Deposits,Non Retail deposits,Operational deposits (other customers),<6m,0.5
+ASF,Deposits,Retail deposits,Less stable,>12m,1
+ASF,Deposits,Retail deposits,Less stable,6 - 12m,0.9
+ASF,Deposits,Retail deposits,Less stable,<6m,0.9
+ASF,Deposits,Retail deposits,Stable deposits,>12m,1
+ASF,Deposits,Retail deposits,Stable deposits,6 - 12m,0.95
+ASF,Deposits,Retail deposits,Stable deposits,<6m,0.95
+ASF,Other liabilities,-,-,>12m,1
+ASF,Other liabilities,-,-,<6m,0
+RSF_OBS,Credit facilities,-,-,<6m,0.05
+RSF_OBS,Liquidity facilities,-,-,<6m,0.05

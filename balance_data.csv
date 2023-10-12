@@ -1,0 +1,54 @@
+NSFR_GROUP,BALANCE_GROUP,BALANCE_CATEGORY,BALANCE_SUB_CATEGORY,GAP,TOTAL_BALANCE_EUR
+RSF,Bonds,Bonds,Level 1,<6m,423001312
+RSF,Bonds,Bonds,Level 1,6 - 12m,400123123
+RSF,Bonds,Bonds,Level 1,>12m,160312999
+RSF,Bonds,Bonds,Level 2A,<6m,19229999
+RSF,Bonds,Bonds,Level 2A,6 - 12m,12312331
+RSF,Bonds,Bonds,Level 2A,>12m,50112231
+RSF,Bonds,Bonds,Level 2B,<6m,201112313
+RSF,Bonds,Bonds,Level 2B,6 - 12m,6121425.29
+RSF,Bonds,Bonds,Non-HQLA,<6m,50723767.07
+RSF,Bonds,Bonds,Non-HQLA,6 - 12m,1543167.65
+RSF,Bonds,Bonds,Non-HQLA,>12m,797445.58
+RSF,Encumbered assets,Encumbered bonds,Level 1,<6m,50009532.97
+RSF,Encumbered assets,Encumbered bonds,Level 1,6 - 12m,10222123
+RSF,Encumbered assets,Encumbered bonds,Level 1,>12m,23123123
+RSF,Encumbered assets,Encumbered bonds,Level 2A,<6m,21312312
+RSF,Encumbered assets,Encumbered bonds,Level 2A,6 - 12m,10000
+RSF,Encumbered assets,Encumbered bonds,Level 2A,>12m,123123
+RSF,Encumbered assets,Encumbered bonds,Level 2B,<6m,1019718.73
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,<6m,11114579.89
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,6 - 12m,500000
+RSF,Encumbered assets,Encumbered bonds,Non-HQLA,>12m,12312313
+RSF,Cash and CB Reserves,Cash,-,<6m,12131231
+RSF,Cash and CB Reserves,CB Reserves,-,<6m,150749032.7
+RSF,Loans,Performing loans,Non-financial client,6 - 12m,91285164.65
+RSF,Loans,Performing loans,Non-financial client,<6m,87434396.75
+RSF,Loans,NPLs,Non-financial client,6 - 12m,3686226.24
+RSF,Loans,Performing loans,Financial client,6 - 12m,1589195.07
+RSF,Loans,Performing loans,Non-financial client,>12m,1029962933
+RSF,Loans,Performing loans,Financial client,>12m,3405737.72
+RSF,Loans,NPLs,Non-financial client,>12m,31659926.76
+RSF,Loans,Performing loans,Financial client,<6m,714836.61
+RSF,Loans,NPLs,Non-financial client,<6m,4645375.57
+RSF,Other assets,Gold,-,>12m,765154.51
+RSF,Other assets,Shares,-,>12m,14173406.09
+RSF,Nostro and money market,-,-,<6m,70168404.38
+RSF,All other assets,-,-,<6m,70168404.38
+ASF,Tier 1 and Tier 2 capital,Sub,-,>12m,60779631.08
+ASF,Tier 1 and Tier 2 capital,Equity,-,>12m,311435783
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),>12m,1023242
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),6 - 12m,68231321
+ASF,Deposits,Non Retail deposits,Non-operational (other customers),<6m,400126095.2
+ASF,Deposits,Non Retail deposits,Operational deposits (financial customers),<6m,20323132
+ASF,Deposits,Non Retail deposits,Operational deposits (other customers),<6m,30342342
+ASF,Deposits,Retail deposits,Less stable,>12m,32707902.22
+ASF,Deposits,Retail deposits,Less stable,6 - 12m,15645195.2
+ASF,Deposits,Retail deposits,Less stable,<6m,800546961.8
+ASF,Deposits,Retail deposits,Stable deposits,>12m,18342342
+ASF,Deposits,Retail deposits,Stable deposits,6 - 12m,42821416.52
+ASF,Deposits,Retail deposits,Stable deposits,<6m,1022165418
+ASF,Other liabilities,-,-,>12m,65490777.04
+ASF,Other liabilities,-,-,<6m,137694805.7
+RSF_OBS,Credit facilities,-,-,<6m,300999.99
+RSF_OBS,Liquidity facilities,-,-,<6m,12011657.4
